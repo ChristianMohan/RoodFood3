@@ -157,4 +157,13 @@
       <Name>RoodFood3</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sett.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Cart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\image.jpg" />
+  </ItemGroup>
 </Project>

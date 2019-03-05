@@ -6,14 +6,24 @@
   <ScrollView>
     <StackLayout>
         <!-- Place new controls here -->
-            <Image Source="sett.png" HeightRequest="150" WidthRequest="150">
+            
+
+            <Label x:Name="Title" Text="Rood Food" HorizontalOptions="Center" VerticalOptions="Start" FontSize="25" TextColor="PapayaWhip" BackgroundColor="Black"/>
+
+            <Image Source="cart.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start" VerticalOptions="Start" Style="Float">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image Source="sett.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="End" VerticalOptions="Start" Style="Float" >
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                 </Image.GestureRecognizers>
             </Image>
-                    <Label x:Name="Title" Text="Rood Food" HorizontalOptions="Center" VerticalOptions="Start" FontSize="25" TextColor="PapayaWhip" BackgroundColor="Black"/>
+        
 
-        <Grid>
+            <Grid>
 
             <Grid.RowDefinitions>
                 
@@ -22,8 +32,10 @@
                 <RowDefinition Height="150" />
                 <RowDefinition Height="150" />
                 <RowDefinition Height="150" />
-                
-            </Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+
+                </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
 
                 <ColumnDefinition Width="*" />
@@ -35,6 +47,7 @@
             <Button Grid.Row ="4" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_4" BackgroundColor="SteelBlue" />
             <Button Grid.Row ="5" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_5" BackgroundColor="SteelBlue" />
             <Button Grid.Row ="6" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_6" BackgroundColor="SteelBlue" />
+            
             </Grid>
     </StackLayout>
   </ScrollView>

@@ -55,3 +55,4 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\X
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\RoodFood3.iOS.csproj.CopyComplete
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\RoodFood3.iOS.exe
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\RoodFood3.iOS.pdb
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\RoodFood3.dll.mdb

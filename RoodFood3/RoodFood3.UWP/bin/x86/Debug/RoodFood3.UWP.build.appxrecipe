@@ -643,6 +643,15 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\sett.png">
+      <PackagePath>sett.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\Cart.jpg">
+      <PackagePath>Cart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\image.jpg">
+      <PackagePath>image.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

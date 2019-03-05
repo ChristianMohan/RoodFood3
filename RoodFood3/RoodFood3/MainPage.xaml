@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RoodFood3"
+             x:Class="RoodFood3.MainPage">
+  <ScrollView>
+    <StackLayout>
+        <!-- Place new controls here -->
+            <Image Source="sett.png" HeightRequest="150" WidthRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+                    <Label x:Name="Title" Text="Rood Food" HorizontalOptions="Center" VerticalOptions="Start" FontSize="25" TextColor="PapayaWhip" BackgroundColor="Black"/>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row ="0" Grid.Column="0" Text="McDonald's" Clicked="Button_Clicked" BackgroundColor="SteelBlue" />
+            <Button Grid.Row ="1" Grid.Column="0" Text="Wendy's" Clicked="Button_Clicked_1" BackgroundColor="SteelBlue" />               
+            <Button Grid.Row ="2" Grid.Column="0" Text="Burger King" Clicked="Button_Clicked_2" BackgroundColor="SteelBlue" />
+            <Button Grid.Row ="3" Grid.Column="0" Text="Panera Bread" Clicked="Button_Clicked_3" BackgroundColor="SteelBlue" />
+            <Button Grid.Row ="4" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_4" BackgroundColor="SteelBlue" />
+            <Button Grid.Row ="5" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_5" BackgroundColor="SteelBlue" />
+            <Button Grid.Row ="6" Grid.Column="0" Text="Applebee's" Clicked="Button_Clicked_6" BackgroundColor="SteelBlue" />
+            </Grid>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -10,3 +10,4 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\obj\Debug\netstandard2
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\obj\Debug\netstandard2.0\RoodFood3.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\obj\Debug\netstandard2.0\RoodFood3.pdb
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\obj\Debug\netstandard2.0\RoodFood3.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs

@@ -12,10 +12,13 @@ namespace RoodFood3
         public MainPage()
         {
             InitializeComponent();
-
-            BackgroundImage = "Images/image.jpg";
+            NavigationPage.SetHasNavigationBar(this, false);
+            BackgroundImage = "image.jpg";
            
         }
+
+
+
 
         private void Button_Clicked(object sender, EventArgs e)
         {
@@ -52,10 +55,12 @@ namespace RoodFood3
 
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new SettingsPage());
         }
+
+        
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {

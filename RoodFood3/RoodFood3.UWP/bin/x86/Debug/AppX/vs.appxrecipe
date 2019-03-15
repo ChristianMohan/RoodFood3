@@ -30,13 +30,21 @@
     <AppXManifest Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-13T15:22:55.495</Modified>
+      <Modified>2019-03-15T15:30:50.181</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\RoodFood3.UWP.exe">
       <PackagePath>entrypoint\RoodFood3.UWP.exe</PackagePath>
-      <Modified>2019-03-13T15:22:54.750</Modified>
+      <Modified>2019-03-15T15:30:49.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\mvvmcross.platform\4.4.0\lib\win81\MvvmCross.Platform.WindowsCommon.dll">
+      <PackagePath>MvvmCross.Platform.WindowsCommon.dll</PackagePath>
+      <Modified>2016-11-02T02:58:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\mvvmcross.platform\4.4.0\lib\win81\MvvmCross.Platform.dll">
+      <PackagePath>MvvmCross.Platform.dll</PackagePath>
+      <Modified>2016-11-02T02:58:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -694,6 +702,10 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-05-16T21:28:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\xamarin.essentials\1.0.1\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2019-01-14T21:29:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-10-30T04:21:48.000</Modified>
@@ -712,7 +724,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3\bin\Debug\netstandard2.0\RoodFood3.dll">
       <PackagePath>RoodFood3.dll</PackagePath>
-      <Modified>2019-03-13T15:22:50.990</Modified>
+      <Modified>2019-03-15T15:30:45.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\Arrow.jpg">
       <PackagePath>Arrow.jpg</PackagePath>
@@ -729,6 +741,22 @@
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\image.jpg">
       <PackagePath>image.jpg</PackagePath>
       <Modified>2019-03-05T17:31:29.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\volume0.jpg">
+      <PackagePath>volume0.jpg</PackagePath>
+      <Modified>2019-03-15T15:20:41.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\volume1.jpg">
+      <PackagePath>volume1.jpg</PackagePath>
+      <Modified>2019-03-15T15:20:44.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\volume2.jpg">
+      <PackagePath>volume2.jpg</PackagePath>
+      <Modified>2019-03-15T15:20:50.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\volume3.jpg">
+      <PackagePath>volume3.jpg</PackagePath>
+      <Modified>2019-03-15T15:20:54.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -883,11 +911,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-03-13T15:22:54.635</Modified>
+      <Modified>2019-03-15T15:30:49.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-03-13T15:22:54.636</Modified>
+      <Modified>2019-03-15T15:30:49.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -899,11 +927,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-03-13T15:22:55.209</Modified>
+      <Modified>2019-03-15T15:21:58.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Core\RoodFood3.UWP.exe">
       <PackagePath>RoodFood3.UWP.exe</PackagePath>
-      <Modified>2019-03-13T15:22:55.489</Modified>
+      <Modified>2019-03-15T15:30:50.176</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

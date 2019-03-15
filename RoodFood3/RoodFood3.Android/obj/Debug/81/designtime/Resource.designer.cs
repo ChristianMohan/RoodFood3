@@ -3017,6 +3017,18 @@ namespace RoodFood3.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
+			// aapt resource value: 0x7F010008
+			public const int volume0 = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int volume1 = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int volume2 = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int volume3 = 2130771985;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

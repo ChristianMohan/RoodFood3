@@ -298,3 +298,9 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\qual
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\MvvmCross.Platform.WindowsCommon.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\MvvmCross.Platform.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Xamarin.Essentials.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\MvvmCross.Platform.WindowsCommon.pri.xml
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml

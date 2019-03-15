@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c13ab3e9dd0afa602671531bfe3629542f85aa4e"
+    "signature": "9fdb634cf2ef6e92d073dbcfc8fa048e1bec061f"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "RoodFood3/1.0.0": {
         "dependencies": {
+          "Mvx.Volume": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
@@ -17,9 +19,45 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross.Platform/4.4.0": {
+        "runtime": {
+          "lib/net45/MvvmCross.Platform.Wpf.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          },
+          "lib/net45/MvvmCross.Platform.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Mvx.Volume/1.0.0": {
+        "dependencies": {
+          "MvvmCross.Platform": "4.4.0"
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.0.1": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -53,12 +91,40 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
+    "MvvmCross.Platform/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q6MskvjanYRzk9nqZf9fgaBZUOjEcapy3ACahGMn+vVVNk/d14BzPVOiCKWnDaoMt/YwjfVqrJ2TXz7sAWaCEw==",
+      "path": "mvvmcross.platform/4.4.0",
+      "hashPath": "mvvmcross.platform.4.4.0.nupkg.sha512"
+    },
+    "Mvx.Volume/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nq1/9nOrgfMn0VyHgR8M+ZYHEe3jFBPLvOTBi2HRdPk6f80WMnJC9RA9I/BUWAXLfltawMDrKL9hKda56QjA6A==",
+      "path": "mvx.volume/1.0.0",
+      "hashPath": "mvx.volume.1.0.0.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+      "path": "xamarin.essentials/1.0.1",
+      "hashPath": "xamarin.essentials.1.0.1.nupkg.sha512"
     },
     "Xamarin.Forms/3.3.0.967583": {
       "type": "package",

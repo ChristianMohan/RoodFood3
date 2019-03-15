@@ -4,13 +4,57 @@
              x:Class="RoodFood3.SettingsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="TitleS" Text="Settings" HorizontalOptions="Center" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" />
 
             <Image Source="Arrow.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start" VerticalOptions="Start" Style="Float" >
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                 </Image.GestureRecognizers>
             </Image>
+
+            <Label x:Name="TitleS" Text="Settings" HorizontalOptions="End" VerticalOptions="Start" FontSize="15" TextColor="GhostWhite" />
+
+            <Label x:Name="Sound" Text="Audio" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" BackgroundColor="Black" />
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="volume0.jpg" Grid.Row="0" Grid.Column="0" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="volume1.jpg" Grid.Row="0" Grid.Column="1" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="volume2.jpg" Grid.Row="1" Grid.Column="0" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="volume3.jpg" Grid.Row="1" Grid.Column="1" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+
+
+
 
         </StackLayout>
     </ContentPage.Content>

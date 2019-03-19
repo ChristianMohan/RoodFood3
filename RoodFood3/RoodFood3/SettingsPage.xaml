@@ -34,7 +34,7 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Image Source="volume1.jpg" Grid.Row="0" Grid.Column="1" >
+                <Image Source="volume1.jpg" Grid.Row="0" Grid.Column="1">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
                     </Image.GestureRecognizers>
@@ -52,6 +52,26 @@
                     </Image.GestureRecognizers>
                 </Image>
             </Grid>
+            
+            <Label x:Name="Visual" Text="Visual" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" BackgroundColor="Black" />
+            
+            <Grid>
+                <Grid.RowDefinitions>
+
+                <RowDefinition Height="70" />
+                
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Button Grid.Row="0" Grid.Column="0" Text="Sort Alphabetically" Clicked="Button_Clicked" BackgroundColor="Aqua"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Sort By Price" Clicked="Button_Clicked_1" BackgroundColor="RoyalBlue"/>
+
+            <Label x:Name="Insults" Text="Insult Frequency" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" BackgroundColor="Black" />
 
 
 

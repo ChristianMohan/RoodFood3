@@ -56,3 +56,7 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\R
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\RoodFood3.iOS.exe
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\obj\iPhone\Debug\RoodFood3.iOS.pdb
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\RoodFood3.dll.mdb
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\MvvmCross.Platform.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\MvvmCross.Platform.iOS.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb

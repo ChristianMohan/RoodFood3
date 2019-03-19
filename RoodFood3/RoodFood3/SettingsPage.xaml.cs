@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvvmCross.Platform;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,10 @@ namespace RoodFood3
             BackgroundImage = "Back.jpg";
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent ();
-		}
+
+            
+        }
+
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
@@ -26,20 +30,30 @@ namespace RoodFood3
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
-
+            
         }
 
         private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
-
+            
         }
 
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
-
+            
         }
 
         private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
         {
 
         }

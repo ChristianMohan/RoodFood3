@@ -193,4 +193,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\volume3.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Menu.jpg" />
+  </ItemGroup>
 </Project>

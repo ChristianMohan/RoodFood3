@@ -2909,6 +2909,9 @@ namespace RoodFood3.Droid
 			// aapt resource value: 0x7F010006
 			public const int image = 2130771974;
 			
+			// aapt resource value: 0x7F010007
+			public const int Menu = 2130771975;
+			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -3008,8 +3011,8 @@ namespace RoodFood3.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010007
-			public const int sett = 2130771975;
+			// aapt resource value: 0x7F010008
+			public const int sett = 2130771976;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3017,17 +3020,17 @@ namespace RoodFood3.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010008
-			public const int volume0 = 2130771976;
-			
 			// aapt resource value: 0x7F010009
-			public const int volume1 = 2130771977;
+			public const int volume0 = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int volume2 = 2130771984;
+			public const int volume1 = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int volume3 = 2130771985;
+			public const int volume2 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int volume3 = 2130771986;
 			
 			static Drawable()
 			{

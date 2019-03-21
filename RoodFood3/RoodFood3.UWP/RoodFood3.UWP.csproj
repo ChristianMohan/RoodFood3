@@ -135,6 +135,7 @@
     <Content Include="Cart.jpg" />
     <Content Include="download.png" />
     <Content Include="image.jpg" />
+    <Content Include="Menu.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="sett.png" />
     <Content Include="volume0.jpg" />

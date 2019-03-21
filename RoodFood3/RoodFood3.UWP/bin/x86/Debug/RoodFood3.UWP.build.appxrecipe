@@ -556,6 +556,9 @@
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\image.jpg">
       <PackagePath>image.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\Menu.jpg">
+      <PackagePath>Menu.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\volume0.jpg">
       <PackagePath>volume0.jpg</PackagePath>
     </AppxPackagedFile>

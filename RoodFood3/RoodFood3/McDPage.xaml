@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoodFood3.McDPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="Arrow.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start" VerticalOptions="Start" Style="Float" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Label x:Name="Insult" FontSize="Large" TextColor="Brown"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="Menu" Text="Menu"  FontSize="Medium" TextColor="Firebrick" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="McChicken" FontSize="Small" TextColor="Black"
+                Grid.Row="0" Grid.Column="0" />
+                <Label Text="Calories: 410" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="0" Grid.Column="1" />
+                <Label Text="Big Mac" FontSize="Small" TextColor="Black"
+                Grid.Row="1" Grid.Column="0" />
+                <Label Text="Calories: 540" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="1" Grid.Column="1" />
+                <Label Text="10 Piece Nuggets" FontSize="Small" TextColor="Black"
+                Grid.Row="2" Grid.Column="0" />
+                <Label Text="Calories: 440" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="2" Grid.Column="1" />
+                <Label Text="Quarter Pounder w/ Cheese" FontSize="Small" TextColor="Black"
+                Grid.Row="3" Grid.Column="0" />
+                <Label Text="Calories: 530" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="3" Grid.Column="1" />
+                <Label Text="McDouble" FontSize="Small" TextColor="Black"
+                Grid.Row="4" Grid.Column="0" />
+                <Label Text="Calories: 390" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="4" Grid.Column="1" />
+                <Label Text="Medium Fries" FontSize="Small" TextColor="Black"
+                Grid.Row="5" Grid.Column="0" />
+                <Label Text="Calories: 430" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="5" Grid.Column="1" />
+                <Label Text="Small Hot Choc." FontSize="Small" TextColor="Black"
+                Grid.Row="6" Grid.Column="0" />
+                <Label Text="Calories: 370" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="6" Grid.Column="1" />
+
+                </Grid>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

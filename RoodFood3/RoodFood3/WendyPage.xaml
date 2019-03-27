@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoodFood3.WendyPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            <Image Source="Arrow.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start" VerticalOptions="Start" Style="Float" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Label x:Name="Insult" FontSize="Large" TextColor="Brown"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="Menu" Text="Menu"  FontSize="Medium" TextColor="Firebrick" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Baconator" FontSize="Small" TextColor="Black"
+                Grid.Row="0" Grid.Column="0" />
+                <Label Text="Calories: 950" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="0" Grid.Column="1" />
+                <Label Text="Dave's Single" FontSize="Small" TextColor="Black"
+                Grid.Row="1" Grid.Column="0" />
+                <Label Text="Calories: 570" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="1" Grid.Column="1" />
+                <Label Text="Peppercorn Mushroom Melt" FontSize="Small" TextColor="Black"
+                Grid.Row="2" Grid.Column="0" />
+                <Label Text="Calories: 690" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="2" Grid.Column="1" />
+                <Label Text="Crispy Chicken Sandwich" FontSize="Small" TextColor="Black"
+                Grid.Row="3" Grid.Column="0" />
+                <Label Text="Calories: 330" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="3" Grid.Column="1" />
+                <Label Text="10 Piece Crispy Nuggets" FontSize="Small" TextColor="Black"
+                Grid.Row="4" Grid.Column="0" />
+                <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="4" Grid.Column="1" />
+                <Label Text="Medium Fries" FontSize="Small" TextColor="Black"
+                Grid.Row="5" Grid.Column="0" />
+                <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="5" Grid.Column="1" />
+                <Label Text="Medium Coca-Cola" FontSize="Small" TextColor="Black"
+                Grid.Row="6" Grid.Column="0" />
+                <Label Text="Calories: 320" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="6" Grid.Column="1" />
+
+                    <Label Text="Baconator" FontSize="Small" TextColor="Black"
+                Grid.Row="7" Grid.Column="0" />
+                    <Label Text="Calories: 950" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="7" Grid.Column="1" />
+                    <Label Text="Dave's Single" FontSize="Small" TextColor="Black"
+                Grid.Row="8" Grid.Column="0" />
+                    <Label Text="Calories: 570" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="8" Grid.Column="1" />
+                    <Label Text="Peppercorn Mushroom Melt" FontSize="Small" TextColor="Black"
+                Grid.Row="9" Grid.Column="0" />
+                    <Label Text="Calories: 690" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="9" Grid.Column="1" />
+                    <Label Text="Crispy Chicken Sandwich" FontSize="Small" TextColor="Black"
+                Grid.Row="10" Grid.Column="0" />
+                    <Label Text="Calories: 330" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="10" Grid.Column="1" />
+                    <Label Text="10 Piece Crispy Nuggets" FontSize="Small" TextColor="Black"
+                Grid.Row="11" Grid.Column="0" />
+                    <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="11" Grid.Column="1" />
+                    <Label Text="Medium Fries" FontSize="Small" TextColor="Black"
+                Grid.Row="12" Grid.Column="0" />
+                    <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="12" Grid.Column="1" />
+                    <Label Text="Medium Coca-Cola" FontSize="Small" TextColor="Black"
+                Grid.Row="13" Grid.Column="0" />
+                    <Label Text="Calories: 320" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="13" Grid.Column="1" />
+
+                </Grid>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

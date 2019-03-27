@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RoodFood3.McDPage">
+             x:Class="RoodFood3.McDPage"
+             xmlns:expandable="clr-namespace:Expandable;assembly=ExpandableView">
     <ContentPage.Content>
         <StackLayout>
+
+            
 
             <Image Source="Arrow.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start" VerticalOptions="Start" Style="Float" >
                 <Image.GestureRecognizers>
@@ -19,28 +22,36 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
 
-                <Label Text="McChicken" FontSize="Small" TextColor="Black"
-                Grid.Row="0" Grid.Column="0" />
-                <Label Text="Calories: 410" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="0" Grid.Column="1" />
-                <Label Text="Big Mac" FontSize="Small" TextColor="Black"
-                Grid.Row="1" Grid.Column="0" />
-                <Label Text="Calories: 540" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="1" Grid.Column="1" />
+
+
+            <expandable:ExpandableView>
+                <expandable:ExpandableView.PrimaryView>
+                    <Button  Text="McChicken" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="SteelBlue" FontSize="Medium" />
+                </expandable:ExpandableView.PrimaryView>
+                <expandable:ExpandableView.SecondaryViewTemplate>
+                    <DataTemplate>
+                        <Button Text="Regular: 410 Calories" FontSize="Small" TextColor="OrangeRed" HorizontalOptions="CenterAndExpand"
+                 />
+
+                    </DataTemplate>
+                </expandable:ExpandableView.SecondaryViewTemplate>
+            </expandable:ExpandableView>
+
+            <expandable:ExpandableView>
+                <expandable:ExpandableView.PrimaryView>
+                    <Button  Text="Big Mac" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="SteelBlue" FontSize="Medium" />
+                </expandable:ExpandableView.PrimaryView>
+                <expandable:ExpandableView.SecondaryViewTemplate>
+                    <DataTemplate>
+                        <Button Text="Standard Big Mac: 540 Calories" FontSize="Small" TextColor="OrangeRed" HorizontalOptions="CenterAndExpand"
+                 />
+
+                    </DataTemplate>
+                    
+                </expandable:ExpandableView.SecondaryViewTemplate>
+            </expandable:ExpandableView>
+                
                 <Label Text="10 Piece Nuggets" FontSize="Small" TextColor="Black"
                 Grid.Row="2" Grid.Column="0" />
                 <Label Text="Calories: 440" FontSize="Small" TextColor="OrangeRed"
@@ -62,7 +73,24 @@
                 <Label Text="Calories: 370" FontSize="Small" TextColor="OrangeRed"
                 Grid.Row="6" Grid.Column="1" />
 
-                </Grid>
+
+
+
+                <expandable:ExpandableView>
+                    <expandable:ExpandableView.PrimaryView>
+                        <Button Grid.Row ="0" Grid.Column="0" Text="Hot Chocolate" BackgroundColor="SteelBlue" />
+                    </expandable:ExpandableView.PrimaryView>
+                    <expandable:ExpandableView.SecondaryViewTemplate>
+                        <DataTemplate>
+                            <Label Text="Small: 370 Calories" FontSize="Small" TextColor="OrangeRed"
+                Grid.Row="5" Grid.Column="0" />
+
+                        </DataTemplate>
+                    </expandable:ExpandableView.SecondaryViewTemplate>
+                </expandable:ExpandableView>
+
+
+
 
 
         </StackLayout>

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -351,6 +363,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -364,6 +377,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -888,6 +913,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -901,6 +927,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1426,6 +1464,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -1439,6 +1478,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1788,6 +1839,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -1801,6 +1853,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2325,6 +2389,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -2338,6 +2403,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2863,6 +2940,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -2876,6 +2954,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -3400,6 +3490,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -3413,6 +3504,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -3938,6 +4041,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -3952,6 +4056,21 @@
     }
   },
   "libraries": {
+    "ExpandableView/1.0.5": {
+      "sha512": "Fc4384Hm6oEzCBX8P4m15PlCPTnhAHo4x8qEvz6FxKPoS839Dc7CJ0ybCq1ebxSHDkLQ1zd2MKYbGNj7Gx7Otw==",
+      "type": "package",
+      "path": "expandableview/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "expandableview.1.0.5.nupkg.sha512",
+        "expandableview.nuspec",
+        "lib/MonoAndroid10/ExpandableView.dll",
+        "lib/Xamarin.iOS10/ExpandableView.dll",
+        "lib/netstandard2.0/ExpandableView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/ExpandableView.dll"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.1.8": {
       "sha512": "XhelL0kagNwYtUOQVsdCOO963yiDVgh8W8Dr0W0pKEn3aJCVMkvHUK07sRDpPbzBlbEtMXXvm/epFHKZ4NVt2Q==",
       "type": "package",

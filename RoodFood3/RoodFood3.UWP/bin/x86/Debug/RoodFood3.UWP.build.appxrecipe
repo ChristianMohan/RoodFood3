@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\RoodFood3.UWP.exe">
       <PackagePath>entrypoint\RoodFood3.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\expandableview\1.0.5\lib\netstandard2.0\ExpandableView.dll">
+      <PackagePath>ExpandableView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\.nuget\packages\mvvmcross.platform\4.4.0\lib\win81\MvvmCross.Platform.WindowsCommon.dll">
       <PackagePath>MvvmCross.Platform.WindowsCommon.dll</PackagePath>
     </AppxPackagedFile>

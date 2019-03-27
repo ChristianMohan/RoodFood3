@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "9fdb634cf2ef6e92d073dbcfc8fa048e1bec061f"
+    "signature": "a4a6d3a320897c6445ae292b6601d62b91e816b9"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "RoodFood3/1.0.0": {
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
@@ -16,6 +17,17 @@
         },
         "runtime": {
           "RoodFood3.dll": {}
+        }
+      },
+      "ExpandableView/1.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -83,6 +95,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ExpandableView/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fc4384Hm6oEzCBX8P4m15PlCPTnhAHo4x8qEvz6FxKPoS839Dc7CJ0ybCq1ebxSHDkLQ1zd2MKYbGNj7Gx7Otw==",
+      "path": "expandableview/1.0.5",
+      "hashPath": "expandableview.1.0.5.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

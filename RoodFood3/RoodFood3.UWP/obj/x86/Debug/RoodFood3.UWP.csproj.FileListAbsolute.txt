@@ -304,3 +304,4 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Xama
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\MvvmCross.Platform.WindowsCommon.pri.xml
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.UWP\bin\x86\Debug\ExpandableView.dll

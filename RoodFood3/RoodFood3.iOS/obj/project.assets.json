@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        }
+      },
       "MvvmCross.Platform/4.4.0": {
         "type": "package",
         "compile": {
@@ -167,6 +179,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -180,6 +193,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        }
+      },
       "MvvmCross.Platform/4.4.0": {
         "type": "package",
         "compile": {
@@ -345,6 +370,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -358,6 +384,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        }
+      },
       "MvvmCross.Platform/4.4.0": {
         "type": "package",
         "compile": {
@@ -523,6 +561,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -536,6 +575,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "ExpandableView/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ExpandableView.dll": {}
+        }
+      },
       "MvvmCross.Platform/4.4.0": {
         "type": "package",
         "compile": {
@@ -701,6 +752,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ExpandableView": "1.0.5",
           "Mvx.Volume": "1.0.0",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.3.0.967583"
@@ -715,6 +767,21 @@
     }
   },
   "libraries": {
+    "ExpandableView/1.0.5": {
+      "sha512": "Fc4384Hm6oEzCBX8P4m15PlCPTnhAHo4x8qEvz6FxKPoS839Dc7CJ0ybCq1ebxSHDkLQ1zd2MKYbGNj7Gx7Otw==",
+      "type": "package",
+      "path": "expandableview/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "expandableview.1.0.5.nupkg.sha512",
+        "expandableview.nuspec",
+        "lib/MonoAndroid10/ExpandableView.dll",
+        "lib/Xamarin.iOS10/ExpandableView.dll",
+        "lib/netstandard2.0/ExpandableView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/ExpandableView.dll"
+      ]
+    },
     "MvvmCross.Platform/4.4.0": {
       "sha512": "Q6MskvjanYRzk9nqZf9fgaBZUOjEcapy3ACahGMn+vVVNk/d14BzPVOiCKWnDaoMt/YwjfVqrJ2TXz7sAWaCEw==",
       "type": "package",

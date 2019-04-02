@@ -60,3 +60,4 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\M
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\MvvmCross.Platform.iOS.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.iOS\bin\iPhone\Debug\ExpandableView.dll

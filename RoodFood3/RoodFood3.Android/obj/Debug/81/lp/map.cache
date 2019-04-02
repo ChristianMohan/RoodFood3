@@ -1,3 +1,4 @@
+ExpandableView
 FormsViewGroup
 MvvmCross.Platform
 MvvmCross.Platform.Droid
@@ -31,4 +32,3 @@ Xamarin.Forms.Xaml
 netstandard
 System.Resources.ResourceManager
 System.Reflection.Extensions
-ExpandableView

@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "RoodFood3.Android.dll" comes first in this list. */
 		"RoodFood3.Android.dll",
+		"ExpandableView.dll",
 		"FormsViewGroup.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",

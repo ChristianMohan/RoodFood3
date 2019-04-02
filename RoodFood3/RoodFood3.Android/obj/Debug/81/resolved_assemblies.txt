@@ -1,4 +1,5 @@
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\RoodFood3.Android.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\ExpandableView.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Mono.Android.dll
@@ -37,11 +38,17 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\a
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Runtime.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Resources.ResourceManager.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Reflection.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
@@ -55,10 +62,4 @@ C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\a
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Threading.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\netstandard.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Data.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Transactions.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 C:\Users\chris\source\repos\RoodFood3\RoodFood3\RoodFood3.Android\obj\Debug\81\android\assets\Mono.Security.dll

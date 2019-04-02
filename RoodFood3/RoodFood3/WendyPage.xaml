@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RoodFood3.WendyPage">
+             x:Class="RoodFood3.WendyPage"
+             xmlns:expandable="clr-namespace:Expandable;assembly=ExpandableView">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -19,81 +20,186 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Baconator Family" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="Baconator: 950 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Son of Baconator: 630 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Jr. Bacon Cheeseburger: 380 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
 
-                <Label Text="Baconator" FontSize="Small" TextColor="Black"
-                Grid.Row="0" Grid.Column="0" />
-                <Label Text="Calories: 950" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="0" Grid.Column="1" />
-                <Label Text="Dave's Single" FontSize="Small" TextColor="Black"
-                Grid.Row="1" Grid.Column="0" />
-                <Label Text="Calories: 570" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="1" Grid.Column="1" />
-                <Label Text="Peppercorn Mushroom Melt" FontSize="Small" TextColor="Black"
-                Grid.Row="2" Grid.Column="0" />
-                <Label Text="Calories: 690" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="2" Grid.Column="1" />
-                <Label Text="Crispy Chicken Sandwich" FontSize="Small" TextColor="Black"
-                Grid.Row="3" Grid.Column="0" />
-                <Label Text="Calories: 330" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="3" Grid.Column="1" />
-                <Label Text="10 Piece Crispy Nuggets" FontSize="Small" TextColor="Black"
-                Grid.Row="4" Grid.Column="0" />
-                <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="4" Grid.Column="1" />
-                <Label Text="Medium Fries" FontSize="Small" TextColor="Black"
-                Grid.Row="5" Grid.Column="0" />
-                <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="5" Grid.Column="1" />
-                <Label Text="Medium Coca-Cola" FontSize="Small" TextColor="Black"
-                Grid.Row="6" Grid.Column="0" />
-                <Label Text="Calories: 320" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="6" Grid.Column="1" />
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Dave's" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="Single: 570 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Double: 810 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Triple: 1090 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                  
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
 
-                    <Label Text="Baconator" FontSize="Small" TextColor="Black"
-                Grid.Row="7" Grid.Column="0" />
-                    <Label Text="Calories: 950" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="7" Grid.Column="1" />
-                    <Label Text="Dave's Single" FontSize="Small" TextColor="Black"
-                Grid.Row="8" Grid.Column="0" />
-                    <Label Text="Calories: 570" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="8" Grid.Column="1" />
-                    <Label Text="Peppercorn Mushroom Melt" FontSize="Small" TextColor="Black"
-                Grid.Row="9" Grid.Column="0" />
-                    <Label Text="Calories: 690" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="9" Grid.Column="1" />
-                    <Label Text="Crispy Chicken Sandwich" FontSize="Small" TextColor="Black"
-                Grid.Row="10" Grid.Column="0" />
-                    <Label Text="Calories: 330" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="10" Grid.Column="1" />
-                    <Label Text="10 Piece Crispy Nuggets" FontSize="Small" TextColor="Black"
-                Grid.Row="11" Grid.Column="0" />
-                    <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="11" Grid.Column="1" />
-                    <Label Text="Medium Fries" FontSize="Small" TextColor="Black"
-                Grid.Row="12" Grid.Column="0" />
-                    <Label Text="Calories: 420" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="12" Grid.Column="1" />
-                    <Label Text="Medium Coca-Cola" FontSize="Small" TextColor="Black"
-                Grid.Row="13" Grid.Column="0" />
-                    <Label Text="Calories: 320" FontSize="Small" TextColor="OrangeRed"
-                Grid.Row="13" Grid.Column="1" />
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Peppercorn Mushroom Melt" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="Single: 690 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Double: 990 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Triple: 1290 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
 
-                </Grid>
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Chicken Sandwiches" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="Crispy Chicken Sandwich: 330 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Crispy Chicken BLT: 420 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Grilled Chicken Sandwich: 380 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Homestyle Chicken Sandwich: 510 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Spicy Chicken Sandwich: 510 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
 
-        </StackLayout>
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Crispy Nuggets" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="4 Piece: 170 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="6 Piece: 250 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="10 Piece: 420 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
+
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Chicken Tenders" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="5">
+                                    <Button Text="3 Piece: 330 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="4 Piece: 430 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="6 Piece: 650 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
+
+                    <expandable:ExpandableView>
+                        <expandable:ExpandableView.PrimaryView>
+                            <Button  Text="Fries" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                        </expandable:ExpandableView.PrimaryView>
+                        <expandable:ExpandableView.SecondaryViewTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="6">
+                                    <Button Text="Jr.: 230 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Small: 320 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                    <Button Text="Medium: 420 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Baconator: 500 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Chili Cheese: 510 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Large: 530 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                            </DataTemplate>
+                        </expandable:ExpandableView.SecondaryViewTemplate>
+                    </expandable:ExpandableView>
+
+                <expandable:ExpandableView>
+                    <expandable:ExpandableView.PrimaryView>
+                        <Button  Text="Baked Potato" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                    </expandable:ExpandableView.PrimaryView>
+                    <expandable:ExpandableView.SecondaryViewTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Button Text="Plain: 270 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Sour Cream w/ Chive: 320 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Bacon Cheese: 440 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Chili and Cheese: 460 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Cheese: 460 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </expandable:ExpandableView.SecondaryViewTemplate>
+                </expandable:ExpandableView>
+
+                <expandable:ExpandableView>
+                    <expandable:ExpandableView.PrimaryView>
+                        <Button  Text="Chocolate Frosty" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                    </expandable:ExpandableView.PrimaryView>
+                    <expandable:ExpandableView.SecondaryViewTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Button Text="Junior: 200 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Small: 350 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Medium: 470 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Large: 590 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </expandable:ExpandableView.SecondaryViewTemplate>
+                </expandable:ExpandableView>
+
+                <expandable:ExpandableView>
+                    <expandable:ExpandableView.PrimaryView>
+                        <Button  Text="Vanila Frosty" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Tan" FontSize="Medium" />
+                    </expandable:ExpandableView.PrimaryView>
+                    <expandable:ExpandableView.SecondaryViewTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Button Text="Junior: 190 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Small: 340 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Medium: 450 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Large: 570 Calories" FontSize="Small" BackgroundColor="Bisque" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </expandable:ExpandableView.SecondaryViewTemplate>
+                </expandable:ExpandableView>
+
+                <expandable:ExpandableView>
+                    <expandable:ExpandableView.PrimaryView>
+                        <Button  Text="Hot Chocolate" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="Gold" FontSize="Medium" />
+                    </expandable:ExpandableView.PrimaryView>
+                    <expandable:ExpandableView.SecondaryViewTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5">
+                                <Button Text="No :(" FontSize="Small" BackgroundColor="Goldenrod" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </expandable:ExpandableView.SecondaryViewTemplate>
+                </expandable:ExpandableView>
+
+
+
+
+
+
+
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

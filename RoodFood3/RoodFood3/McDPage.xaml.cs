@@ -14,7 +14,6 @@ namespace RoodFood3
 	{
 		public McDPage ()
 		{
-            
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this, false);
             BackgroundImage = "Menu.jpg";

@@ -17,7 +17,7 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Label x:Name="Menu" Text="Menu"  FontSize="Medium" TextColor="Firebrick" TextDecorations="Underline"
-                VerticalOptions="CenterAndExpand" 
+                VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
                     <expandable:ExpandableView>

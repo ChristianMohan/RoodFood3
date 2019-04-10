@@ -197,7 +197,7 @@
 
 
 
-
+<Slider Minimum="0" Maximum="1" />
 
             </StackLayout>
         </ScrollView>

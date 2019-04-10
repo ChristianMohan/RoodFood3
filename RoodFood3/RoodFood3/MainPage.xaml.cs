@@ -36,24 +36,24 @@ namespace RoodFood3
             await Navigation.PushAsync(new BK());
         }
 
-        private void Button_Clicked_3(object sender, EventArgs e)
+        private async void Button_Clicked_3(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new PaneraPage());
         }
 
-        private void Button_Clicked_4(object sender, EventArgs e)
+        private async void Button_Clicked_4(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new MainPage());
         }
 
-        private void Button_Clicked_5(object sender, EventArgs e)
+        private async void Button_Clicked_5(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new MainPage());
         }
 
-        private void Button_Clicked_6(object sender, EventArgs e)
+        private async void Button_Clicked_6(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new MainPage());
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)

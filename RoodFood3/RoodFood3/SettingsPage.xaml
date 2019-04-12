@@ -73,8 +73,10 @@
 
             <Label x:Name="Insults" Text="Insult Frequency" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" BackgroundColor="Black" />
 
+<Slider Minimum="0" Maximum="1" MinimumTrackColor="Red" MaximumTrackColor="Black" ThumbColor="Orange"/>
 
 
+            <Label Text="High                                                            Very High" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" FontSize="25" TextColor="GhostWhite" />
 
         </StackLayout>
     </ContentPage.Content>

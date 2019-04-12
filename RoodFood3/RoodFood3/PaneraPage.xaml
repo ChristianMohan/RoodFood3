@@ -15,7 +15,7 @@
 
                 <Label x:Name="Insult" FontSize="Large" TextColor="Brown"
                 VerticalOptions="Center" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" Text="Somple" />
 
                 <Label x:Name="Menu" Text="Menu"  FontSize="Medium" TextColor="Firebrick" TextDecorations="Underline"
                 VerticalOptions="Start" 
